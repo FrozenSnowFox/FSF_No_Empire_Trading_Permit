@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+	<!-- Remove Base Trading Requirement -->
+			
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraderKindDef[defName = "Base_Empire_Standard"]/permitRequiredForTrading</xpath>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+	<!-- Remove Trade Caravan Requirement -->
+			
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraderKindDef[defName = "Empire_Caravan_TraderGeneral"]/permitRequiredForTrading</xpath>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+	<!-- Remove Orbital Trader Requirement -->
+			
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraderKindDef[defName = "Orbital_Empire"]/permitRequiredForTrading</xpath>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>
