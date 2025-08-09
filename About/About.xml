@@ -21,6 +21,7 @@
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>VanillaExpanded.VAERoy</li>
 	</loadAfter>
 	<description>Removes the need for a trading permit to trade with the empire faction.</description>
 	
