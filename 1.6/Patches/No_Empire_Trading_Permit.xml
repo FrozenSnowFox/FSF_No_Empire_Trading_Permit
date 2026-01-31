@@ -9,7 +9,7 @@
 			<!-- No Empire Trading Permit -->
 			
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/TraderKindDef [faction [text()="Empire"] ] /permitRequiredForTrading</xpath>
+				<xpath>/Defs/TraderKindDef/permitRequiredForTrading</xpath>
 			</li>
 			
 		</operations>
