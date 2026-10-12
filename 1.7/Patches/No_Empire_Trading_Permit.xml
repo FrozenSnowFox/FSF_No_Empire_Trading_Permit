@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+
+			<!-- No Empire Trading Permit -->
+			
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraderKindDef/permitRequiredForTrading</xpath>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>
